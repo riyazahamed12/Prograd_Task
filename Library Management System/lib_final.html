@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Library Management System</title>
+    <link rel="stylesheet" href="lib_final.css">
+</head>
+<body>
+  <nav>
+    <h1>Library Management System</h1>
+    <ul>
+      <li><button href="lib_final.html">Home</button></li>
+      <li><button class="login-btn">Login</button></li>
+      <li><button class="logout-btn">Logout</button></li>
+      <li><button class="cart-btn">Cart</button></li>
+    </ul>
+  </nav>
+
+  <div class="book-search">
+    <h3> Using Google Books API </h3>
+    <input type="text" class="search-input" placeholder="Search for a book">
+    <select class="filter-select">
+      <option value="title">Title</option>
+      <option value="author">Author</option>
+      <option value="published">Published Date</option>
+      <option value="price">Price</option>
+    </select>
+    <button class="filter-btn">Filter</button> <br> 
+    <button class="search-btn">Search</button>
+  </div>
+
+  <div class="book-results"></div>
+
+  <div class="cart-page">
+    <h2 class="cart-heading">Cart</h2>
+    <div class="cart-items"></div>
+    <div class="cart-total"></div>
+  </div>
+  <script src="lib_final.js"></script>
+</body>
+</html>
