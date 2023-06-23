@@ -51,6 +51,15 @@ body {
     background-color: #45a049;
   }
   
+  .cart-btn{
+    background-color: orange;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
   /* Book search section */
   .book-search {
     display: flex;
@@ -116,6 +125,11 @@ body {
   .book-info {
     margin-bottom: 20px;
   }
+
+  .loader {
+    display:flexbox;
+  }
+  
   
   .add-to-cart-btn {
     background-color: #ff9800;
