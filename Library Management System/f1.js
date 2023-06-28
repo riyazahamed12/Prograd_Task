@@ -19,6 +19,6 @@ document.getElementById("signupLink").addEventListener("click", function(event) 
     // Perform your login authentication here (e.g., sending a request to a server)
   
     // Assuming the login is successful, redirect the user to the home page
-    window.location.href = "home.html";
+    window.location.href = "./home.html";
   });
   
