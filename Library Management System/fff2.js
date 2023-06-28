@@ -13,16 +13,16 @@ let nextPageToken = ''; // Track the next page token for pagination
 
 loginBtn.addEventListener('click', () => {
   console.log('Login clicked');
-  window.location.href = 'f1.html';
+  window.location.href = './f1.html';
 });
 
 logoutBtn.addEventListener('click', () => {
   console.log('Logout clicked');
-  window.location.href = 'f1.html'
+  window.location.href = './f1.html'
 });
 
 cartBtn.addEventListener('click', () => {
-  window.location.href = 'cart.html';
+  window.location.href = './cart.html';
 });
 
 const filterBtn = document.querySelector('.filter-btn');
