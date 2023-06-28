@@ -1,7 +1,7 @@
 const loginBtn = document.querySelector('.login-btn');
 loginBtn.addEventListener('click', () => {
     console.log('Login clicked');
-    window.location.href = 'f1.html';
+    window.location.href = './f1.html';
   });
   function onGoogleSignIn(googleUser) {
     var idToken = googleUser.getAuthResponse().id_token;
