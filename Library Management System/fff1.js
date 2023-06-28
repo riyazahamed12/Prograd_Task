@@ -11,7 +11,7 @@ const cartItemsData = [];
 
 loginBtn.addEventListener('click', () => {
   console.log('Login clicked');
-  window.location.href = 'f1.html';
+  window.location.href = './f1.html';
 });
 
 logoutBtn.addEventListener('click', () => {
